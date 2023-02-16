@@ -1,7 +1,7 @@
 #include <stdio.h>
  /**
-  * main -  I am now calling u
-  * Return:  0 (Success)
+  * main - I am now calling u
+  * Return: 0 (Success)
   */
 int main(void)
 {
