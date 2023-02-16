@@ -1,8 +1,8 @@
 #include <stdio.h>
- /**
-  * main - I am now calling u
-  * Return: 0 (Success)
-  */
+/**
+ * main - A schedule is transfer for nex tweek
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
