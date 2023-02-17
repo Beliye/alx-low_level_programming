@@ -6,11 +6,22 @@
  */
 int main(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putcthar(ch);
+	char d;
 
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'z') {
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }
