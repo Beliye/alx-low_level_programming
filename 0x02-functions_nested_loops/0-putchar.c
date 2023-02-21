@@ -5,13 +5,11 @@
  */
 int main(void)
 {
-	char *s = "_putchar"; /*arrays of characters or strings*/
-	int i = 0;
+	char *s = "_putchar";
 
-	while (s[i] != '\0')
+	for (int i = 0; i < 8; i++)
 	{
 		_putchar(s[i]);
-		i++;
 	}
 	_putchar('\n');
 
