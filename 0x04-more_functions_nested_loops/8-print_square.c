@@ -1,41 +1,28 @@
-#include "holberton.h"
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - Prints a Fizz Buzz program
+ * print_square - Prints n squares according n number of times
+ * @size: The number of squares/number of times
  *
- * Return: Always 0 (Success)
+ * Return: empty
  */
-int main(void)
+void print_square(int size)
 {
-	int x;
+	int x, y;
 
-	for (x = 1; x <= 100; x++)
+	if (size <= 0)
 	{
-		if ((x % 3 == 0) && (x % 5 == 0))
+		_putchar('\n');
+	}
+	else
+	{
+		for (x = 0; x < size; x++)
 		{
-			printf("FizzBuzz");
-		}
-		else if (x % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		else if (x % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else
-		{
-			printf("%d", x);
-		}
+			for (y = 0; y < size; y++)
+			{
+				_putchar(35);
+			}
 
-		if (x != 100)
-		{
-			printf(" ");
+			_putchar('\n');
 		}
 	}
-
-	printf("\n");
-
-	return (0);
 }
