@@ -5,9 +5,9 @@
  * @c: int type number
  * Return: 1 if uppercase, else 0
  */
-int _isupper(int c)
+int _isupper(int x)
 {
-	if (c >= 65 && x <= 90)
+	if (x >= 65 && x <= 90)
 	{
 		return (1);
 	}
