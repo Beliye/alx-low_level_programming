@@ -1,1 +1,1 @@
-g
+more pointers and arays
